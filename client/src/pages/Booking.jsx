@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 import { addevent } from "../features/bookEvent/eventBookingSlice";
 import { toast } from "react-toastify";
 import Cookies from "js-cookie";
-import jwt_decode from "jwt-decode";
+// import jwt_decode from "jwt-decode";
 
 const Booking = () => {
   const dispatch = useDispatch();
